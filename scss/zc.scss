@@ -1,0 +1,312 @@
+body,p,ul,ol,li,dl,dt,dd,form,table,tr,td,hr,h1,h2,h3,h4,h5,h6,figure,fieldset,legend,input{
+	margin:0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	background: #f5f5f5;
+/*http://www.912688.com/gongsi/*/
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	border: none;
+	display: block;
+}
+
+/*header*/
+header{
+	width:100%;
+	height: 80px;
+	background: #fff;
+}
+.heatop{
+	width: 1263px;
+	height: 80px;
+	margin:0 auto;
+
+	
+}
+.heatop img{
+	float: left;
+	margin:0 595px 0 130px;
+}
+.hearig{
+	line-height: 80px;
+	float: left;
+}
+.hearig span{
+	font-size:12px;
+	color:#555555;
+	
+}
+.hearig a{
+	font-size:12px;
+	color:#ff6700;
+}
+/*//content*/
+.content{
+	width:100%;
+	height:610px;
+
+}
+.content1{
+	width:997px;
+	height:610px;
+	margin:0 auto;
+	margin-top: 30px;
+	background: #fff;
+}
+.conleft{
+	width: 494px;
+	height: 610px;
+
+	float:left;
+	padding:37px 0 0 27px;
+	box-sizing: border-box;
+}
+
+.conlefttop{
+	width: 494px;
+	height: 123px;
+	padding-top:25px;
+	box-sizing: border-box;
+}
+.conlefttopimg{
+	width: 68px;
+	height:68px;
+	float:left;
+	margin-right: 20px;
+	background: url(../img/imgzc/register-icon.png) 1px 3px;
+}
+.conlefttop:nth-child(2) .conlefttopimg{
+	background: url(../img/imgzc/register-icon.png) 1px -132px;
+}
+.conlefttop:nth-child(3) .conlefttopimg{
+	background: url(../img/imgzc/register-icon.png) 1px -266px;
+}
+.conlefttop:nth-child(4) .conlefttopimg{
+	background: url(../img/imgzc/register-icon.png) 1px -399px;
+}
+.conlefttopp{
+	width: 339px;
+	height:82px;
+	float:left;
+}
+.conlefttopp h3{
+	font-size: 16px;
+	color:#111111;
+	line-height: 30px;
+}
+.conlefttopp p{
+	font-size: 12px;
+	color:#111111;
+	line-height: 15px;
+
+}
+.conlefttopp p span{
+	font-size: 12px;
+	color:#2596ff;
+	line-height: 15px;
+}
+.conright{
+	width: 501px;
+	height: 610px;
+	float:left;
+	position:relative;
+	padding-top: 30px;
+	box-sizing: border-box;
+	/*background: pink;*/
+}
+.mf{
+	width:112px;
+	height: 25px;
+	margin:0 auto;
+}
+.mf h3{
+	color:#ff6700;
+	font-size: 16px;
+}
+.box{
+	width: 383px;
+	height: 68px;
+	margin:0 auto;
+}
+.username{
+	width: 383px;
+	height: 44px;
+	
+	border: 1px solid #cccccc;
+	line-height: 44px;
+	border-radius: 3%;
+}
+
+.username input{
+	width: 270px;
+	height: 40px;
+	border: 0;
+	outline: none;
+}
+.username span{
+	font-size: 12px;
+	color: #333333;
+	margin-right: 20px;
+	margin-left: 35px;
+}
+.tsxx{
+	width: 383px;
+	height: 15px;
+	font-size: 12px;
+	color: red;
+	display: none;
+}
+.box1{
+	width: 383px;
+	height: 68px;
+	margin:0 auto;
+	
+}
+.tp{
+	width: 253px;
+	height: 44px;
+	float:left;
+	border: 1px solid #cccccc;
+	line-height: 44px;
+	border-radius: 3%;
+}
+.tp input{
+	width: 120px;
+	height: 40px;
+	border: 0;
+	outline: none;
+}
+.tp span{
+	font-size: 12px;
+	color: #333333;
+	margin-right: 20px;
+	margin-left: 35px;
+}
+.yzm{
+	width: 99px;
+	height: 42px;
+	float:left;
+	background: url(../img/imgzc/imageCheckCode5.jpg) 0px 0px;
+	background-size:99px 42px;
+	margin-left: 25px;
+	cursor:pointer;
+}
+.box2{
+	width: 383px;
+	height: 44px;
+	margin:0 auto;
+	border: 1px solid #cccccc;
+	border-radius: 3%;
+	
+}
+.usernameponeyzm{
+	width: 253px;
+	height: 44px;
+	float:left;
+	line-height: 44px;
+}
+.usernameponeyzm input{
+	width: 120px;
+	height: 40px;
+	border: 0;
+	outline: none;
+}
+.usernameponeyzm span{
+	font-size: 12px;
+	color: #333333;
+	margin-right: 20px;
+	margin-left: 35px;
+}
+.box2 button{
+	border: 0;
+	outline: none;
+	width: 94px;
+	height: 35px;
+	float:left;
+	background: #ff6700;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 3%;
+	line-height: 35px;
+	margin:4px 0 0 30px;
+}
+.box3{
+	width: 383px;
+	height: 44px;
+	margin:0 auto;
+	border-radius: 3%;
+	margin-top:15px;
+	
+}
+.box3 button{
+	border: 0;
+	outline: none;
+	width: 383px;
+	height: 44px;
+	font-size: 16px;
+	text-align: center;
+	color: #ffffff;
+	background: #ff6700;
+	cursor:pointer;
+}
+.footbut{
+	width: 1195px;
+	height: 100px;
+	text-align: center;
+	margin-top: 50px;
+}
+.footbut p{
+	font-size: 12px;
+	color: #777777;
+	line-height: 30px;
+
+}
+.footbut p a{
+	font-size: 12px;
+	color: #777777;
+	line-height: 30px;
+}
+.lv{
+	width: 15px;
+	height: 15px;
+	float: right;
+	background: red;
+	position:absolute;
+	top:140px;
+	right:38px;
+	border-radius: 50%;
+	cursor:pointer;
+	background: url(../img/imgzc/error.png) -1px -71px;
+}
+.lv:hover .lvo{
+	display: block;
+}
+
+.box .boxs{
+	float: left;
+}
+.lvo{
+	position:absolute;
+	width: 167px;
+	height: 252px;
+	background: green;
+	opacity: 0.9;
+	top:4px;
+	right:-170px;
+	display: none;
+	cursor:pointer;
+}
+.lvo p{
+	font-size: 12px;
+	line-height: 25px;
+	color:black;
+}
